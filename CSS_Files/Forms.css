@@ -1,0 +1,46 @@
+@charset "utf-8";
+form#contact {
+    display: flex;
+    flex-flow: row wrap;
+	justify-content: center;
+}
+
+form#contact > fieldset {
+	border-radius: 20px;
+	background-color: lightgray;
+}
+
+div.formRow {
+    display: flex;
+    flex-flow: row wrap;
+    margin-right: 20px;
+    margin-left: 20px;
+	margin-top: 2px;
+	margin-bottom: 5px;
+	text-align: center;
+}
+
+div.formRow > * {
+	flex: 1 1 300px;
+	text-align: center;
+}
+
+div#buttons {
+	text-align: center;
+	width: 100%;
+	padding-top: 5px;
+}
+
+input[type='submit'] {
+	font-size: medium;
+}
+
+legend {
+    font-weight: bold;
+    text-align: center;
+	font-size: large;
+}
+
+input::-webkit-input-placeholder {
+	text-align: center;
+}
